@@ -1,0 +1,13 @@
+#初始化版本库并提交到远程服务器端
+
+mkdir WebApp
+cd WebApp
+git init #本地初始化
+touch README
+git add README#添加文件
+git commit -m 'first commit'
+git remote add origin git@github.com:daixu/WeBApp.git
+
+
+git add . #提交所有文件
+git add -u #仅提交被修改的文件
