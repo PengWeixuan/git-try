@@ -18,7 +18,7 @@ git branch -d 分支名 #删除
 git branch -m 旧分支名 新分支名 #修改
 git checkout 分支名 #切换
 git merge 分支名 #合并分支
-
+git log --oneline --graph --decorate --all #图形化git提交树，好用！
 
 
 近似算法、凸优化书
