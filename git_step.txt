@@ -12,7 +12,7 @@ git remote add origin git@github.com:daixu/WeBApp.git
 git add . #提交所有文件
 git add -u #仅提交被修改的文件
 git reset --hard 版本号 #切换版本号
-git branch -v #查看分支
+git branch -av #查看分支
 git branch 分支名 #创建分支
 git branch -d 分支名 #删除
 git branch -m 旧分支名 新分支名 #修改
