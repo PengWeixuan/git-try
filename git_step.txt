@@ -20,6 +20,11 @@ git checkout 分支名 #切换
 git merge 分支名 #合并分支
 git log --oneline --graph --decorate --all #图形化git提交树，好用！
 
+git remote add 起个别名 git库url
+git remote -v #查看别名
+git remote rename 旧名字 新名字 #改名字
+
+
 
 近似算法、凸优化书
 UFL uncapacitied facility location问题
