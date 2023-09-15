@@ -23,6 +23,7 @@ git log --oneline --graph --decorate --all #图形化git提交树，好用！
 git remote add 起个别名 git库url
 git remote -v #查看别名
 git remote rename 旧名字 新名字 #改名字
+git push 库别名 --delete 远程分支名 #删除远程分支
 
 
 
